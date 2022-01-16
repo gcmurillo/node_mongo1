@@ -1,0 +1,27 @@
+{
+  "name": "node_mongo1",
+  "version": "1.0.0",
+  "description": "node + mongo tutorial",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gcmurillo/node_mongo1.git"
+  },
+  "author": "Geancarlo Murillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gcmurillo/node_mongo1/issues"
+  },
+  "homepage": "https://github.com/gcmurillo/node_mongo1#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.6"
+  },
+  "devDependencies": {
+    "dotenv": "^12.0.3",
+    "nodemon": "^2.0.15"
+  }
+}
